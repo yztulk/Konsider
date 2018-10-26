@@ -1,0 +1,32 @@
+{
+  "name": "Konsider Website",
+  "version": "0.3.0",
+  "description": "Konsider Website",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "ejs": "^2.6.1",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
